@@ -55,7 +55,7 @@ async def get_posts():
 
 
 
-@app.get("posts/latest")
+@app.get("/posts/latest")
 async def get_latest_post():
    post =  my_posts[len(my_posts) - 1]
    return {"detail": post}
