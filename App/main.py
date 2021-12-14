@@ -46,7 +46,7 @@ def find_post(id):
 
 @app.get("/")
 async def root():
-    return {"message": "Mad"}
+    return {"message": "Hello"}
 
 @app.get("/posts")
 async def get_posts():
